@@ -36,16 +36,18 @@ This makes it possible to estimate the direction of arrival of a sound source, e
 <p align="center">
   <img src="Uncertainty2.png" width="400"/>
   <br>
-  <em> <small>Figure 1: Schematic view of interaural differences as the DOA changes - location of the sound
+  <em> <sub>Figure 1: Schematic view of interaural differences as the DOA changes - location of the sound
 source determines the binaural input. If the source is in front of the receiver, the inputs to the left
 and right ear are similar (both shapes equally dark). When the source is located at azimuth of
 45 to either side, the input to one ear will be higher (brighter shape) than the input to other ear
-(darker shape).</small> </em>
-    <img src="Uncertainty1.png" width="500"/>
+(darker shape).</sub> </em>
+    <br>
+  <img src="Uncertainty1.png" width="500"/>
   <br>
-  <em> <small>Figure 2: Schematic of training and testing data sets presented to the NN. Top: NN is trained
+  <em> <sub>Figure 2: Schematic view of training and testing data sets presented to the NN. Top: NN is trained
 for the data corresponding to a source in front of the receiver (left and right side of a pattern have
 similar values). Bottom: classification (testing) is done for data corresponding to a di↵erent DOA.
 The higher the angular distance between source and receiver, the more modified the signal is with
-respect to training data. This leads to higher classification uncertainty.</small> </em>
+respect to training data. This leads to higher classification uncertainty.</sub> </em> 
 </p>
+
