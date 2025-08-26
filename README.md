@@ -42,7 +42,7 @@ and right ear are similar (both shapes equally dark). When the source is located
 45 to either side, the input to one ear will be higher (brighter shape) than the input to other ear
 (darker shape).</sub> </em>
     <br>
-  <img src="Uncertainty1.png" width="500"/>
+  <img src="Uncertainty1.png" width="600"/>
   <br>
   <em> <sub>Figure 2: Schematic view of training and testing data sets presented to the NN. Top: NN is trained
 for the data corresponding to a source in front of the receiver (left and right side of a pattern have
